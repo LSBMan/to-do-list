@@ -1,0 +1,44 @@
+.top{
+    display:flex;
+   flex-direction:column; 
+    justify-content:center;
+    align-items: center;
+    padding:20px;
+}
+
+img{
+    width:100px;
+    height:100px;
+}
+
+.lis{
+    display:flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btns{
+    display:flex;
+    flex-direction:row;
+    
+}
+
+#submit, #clear{
+    margin:10px; 
+}
+
+li{
+    flex:box;
+    
+    justify-content: center; 
+    align-items:center;
+    padding-right: 35px;
+    
+}
+
+
+
+body{
+    background-color:white;
+}
